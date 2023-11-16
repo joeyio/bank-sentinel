@@ -1,7 +1,7 @@
 # bank-sentinel
 
 ## about
-An ML-approach to predicting bank failure. A part of the requirements for CPTR 435 Machine lLearning and ECON 328 Money and Banking.
+An ML-approach to predicting bank failure. A part of the requirements for CPTR 435 Machine Learning and ECON 328 Money and Banking.
 
 Data is to be retrieved from the FDIC using their BankFind API from https://banks.data.fdic.gov/docs/#/Structure/searchInstitutions
 
