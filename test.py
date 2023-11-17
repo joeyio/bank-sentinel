@@ -37,5 +37,5 @@ data2 = response2.text
 response3 = requests.get('https://banks.data.fdic.gov/api/financials?filters=REPYEAR%3A2019&fields=NAME%2CLNATRESR%2CELNLOS%2CNIM%2CEAMINTAN%2CLNLSGRS%2CNTLNLS%2CEQ%2CRISDATE&limit=100&offset=0&format=csv&download=false&filename=data_file')
 data3 = response3.text
 
-df = pd.read_csv(StringIO(data3))
+df = pd.read_csv(StringIO(data2))
 print(df)
