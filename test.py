@@ -11,6 +11,7 @@ https://doi.org/10.1016/j.eswa.2008.01.053 - Effects of feature construction on 
 import requests
 import pandas as pd
 from io import StringIO
+from urllib.parse import quote_plus
 
 pd.set_option('display.max_rows', None)
 
