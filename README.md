@@ -13,6 +13,9 @@ https://doi.org/10.1016/j.dss.2012.11.015 - Partial Least Square Discriminant An
 
 https://doi.org/10.1016/j.eswa.2008.01.053 - Effects of feature construction on classification performance: An empirical study in bank failure prediction
 
+## project description
+This project involves the use of binary classification to predict bank survival/failure based on its financials. Features consist of accounting values and ratios reported to the FDIC, and the target is a binary variable indicating the bank's survival (1 = active, 0 = failed). We aim to reproduce the features described by Le, H.H., & Viviani, J.H. (2018), which is the first article linked above.
+
 ## roadmap
 Step 1: Develop the API GET calls to pull the required financials from the FDIC database. The features to be used in the model are described in the literature linked above. We can retrieve them by following the guide to variables provided by the FDIC in the risview_properties.yaml file. 
 
